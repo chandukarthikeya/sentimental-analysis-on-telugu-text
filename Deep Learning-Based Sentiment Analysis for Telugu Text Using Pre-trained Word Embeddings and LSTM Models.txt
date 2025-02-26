@@ -1,0 +1,13 @@
+Title:
+Deep Learning-Based Sentiment Analysis for Telugu Text Using Pre-trained Word Embeddings and LSTM Models
+
+Abstract:
+In this study, we describe a deep learning-based approach to sentiment analysis of Telugu text that makes use of pre-trained word embeddings and Long Short-Term Memory (LSTM) networks. The fundamental purpose of this research is to overcome the difficulties of sentiment classification in Telugu, a low-resource language, by combining text preprocessing approaches with a hybrid deep learning model that combines the capabilities of pre-trained embeddings with sequence-based learning.
+This study's dataset comes from the Sentiraama Corpus, which contains sentiment-labeled text data from a variety of genres such as book reviews, movie reviews, product reviews, and song lyrics. The dataset is preprocessed by cleaning and translating the text into a standard format, which is then tokenized in preparation for model training. The textual data is then translated into sequences using the Tokenizer class, which are padded to guarantee that the model's input dimensions are consistent.
+The proposed approach relies heavily on pre-trained Word2Vec embeddings for the Telugu language. These embeddings, which have been trained on large Telugu text corpora, are used to initialize the model's embedding layers. To preserve their generic semantic features, the embeddings are not trainable during training. The model architecture consists of two stacked LSTM layers to capture long-term dependencies in the text, followed by dense layers to predict sentiment labels.
+The model is assessed on a held-out test set, and different performance measures are calculated, including accuracy, classification report, confusion matrix, ROC curve, and area under the curve (AUC). The results show that using pre-trained word embeddings with an LSTM model for sentiment analysis is successful, with the model performing well across several sentiment categories (positive, negative, and neutral).
+The study also provides an interactive widget for real-time sentiment prediction, which allows users to enter Telugu text and receive sentiment predictions from the trained model. This makes the model applicable to practical applications of sentiment analysis for Telugu text, such as social media monitoring, opinion mining, and customer feedback analysis.
+By combining deep learning, pre-trained models, and conventional machine learning approaches, this method offers a scalable and reliable solution to sentiment analysis in Telugu, achieving high-performance outcomes in a linguistic environment with limited resources.
+
+
+
